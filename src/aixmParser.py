@@ -60,7 +60,7 @@ if len(sys.argv)<2:
     #oLog.isDebug = True     # Write the debug-messages in the log file
     sSrcPath = "../tst/"
     #sSrcFile = sSrcPath+"aixm5.1_testHeader.xml"
-  #  sSrcFile = sSrcPath+"aixm4.5_SIA-FR_map-Airspaces2.xml"
+    #sSrcFile = sSrcPath+"aixm4.5_SIA-FR_map-Airspaces2.xml"
     #sSrcFile = sSrcPath + "aixm4.5_SIA-FR_2020-03-26.xml"
     #sSrcFile = sSrcPath + "aixm4.5_SIA-FR_2020-04-23.xml"
     sSrcFile = sSrcPath + "aixm4.5_Eurocontrol-FR_2020-03-26.xml"
