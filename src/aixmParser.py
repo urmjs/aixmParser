@@ -57,7 +57,7 @@ def syntaxe():
 
 ### Context d'excecution
 if len(sys.argv)<2:
-    #oLog.isDebug = True     # Write the debug-messages in the log file
+    ##oLog.isDebug = True     # Write the debug-messages in the log file
     sSrcPath = "../tst/"
     #sSrcFile = sSrcPath+"aixm5.1_testHeader.xml"
     #sSrcFile = sSrcPath+"aixm4.5_SIA-FR_map-Airspaces2.xml"
