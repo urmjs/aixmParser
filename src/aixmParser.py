@@ -59,11 +59,17 @@ def syntaxe():
 if len(sys.argv)<2:
     ##oLog.isDebug = True     # Write the debug-messages in the log file
     sSrcPath = "../tst/"
+    #------- fichiers officiels & opérationnels ---
+    #sSrcFile = sSrcPath + "aixm4.5_SIA-FR_2020-04-23.xml"
+    #sSrcFile = sSrcPath + "aixm4.5_Eurocontrol-FR_2020-03-26.xml"
+    #sSrcFile = sSrcPath + "20200510_BPa_FR-ZSM_Protection-des-rapaces_aixm45.xml"
+    #sSrcFile = sSrcPath + "20191210_BPa_ZonesComplementaires_aixm45.xml"
+    #sSrcFile = sSrcPath + "20190401_WPa_ParcCevennes_aixm45.xml"
+    #------- fichiers de tests  ---
+    sSrcFile = sSrcPath + "20191213_FFVP_AIRSPACE_FRANCE_TXT_1911_aixm45.xml"
+#    sSrcFile = sSrcPath + "20191214_BPa_FR-BPa4XCsoar_aixm45.xml"
     #sSrcFile = sSrcPath+"aixm5.1_testHeader.xml"
     #sSrcFile = sSrcPath+"aixm4.5_SIA-FR_map-Airspaces2.xml"
-    #sSrcFile = sSrcPath + "aixm4.5_SIA-FR_2020-03-26.xml"
-    #sSrcFile = sSrcPath + "aixm4.5_SIA-FR_2020-04-23.xml"
-    sSrcFile = sSrcPath + "aixm4.5_Eurocontrol-FR_2020-03-26.xml"
     #------- tests unitaires ---
     #sys.argv += [sSrcFile, "-Fgeojson", aixmReader.CONST.optTstGeojson, aixmReader.CONST.optDraft, aixmReader.CONST.optCleanLog]
     #sys.argv += [sSrcFile, "-Fgeojson", aixmReader.CONST.typeAIRSPACES, aixmReader.CONST.optFreeFlight, aixmReader.CONST.optDraft, aixmReader.CONST.optMakePoints4map, aixmReader.CONST.optCleanLog]
